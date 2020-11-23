@@ -31,6 +31,3 @@ scopus_doi_fn <- function(data) {
   }
   return(result)
 }
-
-doi_data <- scopus_doi_fn(ms_papers[c(110001:115232),])
-write_rds(doi_data, path = "~/Documents/doi_data_110001-115232.rds")
