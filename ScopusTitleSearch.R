@@ -1,3 +1,5 @@
+library(rscopus)
+
 #Fuzzy string matching - build dataset
 scopus_paper_fn <- function(data) {
   result <- data.frame(matrix(nrow=0,ncol=0)) #Instantiate df.
