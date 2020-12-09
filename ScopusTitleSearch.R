@@ -1,4 +1,6 @@
 library(rscopus)
+library(dplyr)
+library(fuzzyjoin)
 
 #Fuzzy string matching - build dataset
 scopus_paper_fn <- function(data) {
